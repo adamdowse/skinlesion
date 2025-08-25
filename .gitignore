@@ -1,0 +1,18 @@
+# Ignore all data folders and their contents
+Data/HAM10000/Images/
+Data/HAM10000/SegmentationMaps/
+Data/HAM10000/test/
+Data/HAM10000/train/
+Data/HAM10000/validation/
+Data/dataverse_files.zip
+Data/HAM10000/
+Models/
+
+# Ignore wandb logs
+wandb/
+**/wandb/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pkl
